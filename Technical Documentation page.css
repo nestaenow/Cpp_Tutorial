@@ -2,6 +2,9 @@ header {
   font-size: 2em;
   font-weight: 700;
 }
+nav {
+    display: block;
+}
 #navbar {
   position: fixed;
   min-width: 290px;
