@@ -27,6 +27,9 @@ header {
 hr {
   width: 100%;
 }
+main {
+  margin-left: 300px;
+}
 code {
   background: #d6d4d3;
   color: #d94537;
