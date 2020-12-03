@@ -1,9 +1,14 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  color: #474644;
+  padding: 10px 0px 30px 0px;
 }
 header {
   font-size: 2em;
   font-weight: 700;
+  color: black;
+  margin: 5px;
+  font-weight: thin;
 }
 nav {
     display: block;
@@ -34,7 +39,7 @@ hr {
   width: 100%;
 }
 main {
-  margin-left: 300px;
+  margin-left: 350px;
 }
 code {
   background: #d6d4d3;
@@ -108,22 +113,35 @@ a {
   margin: 10px;
   padding: 20px 20px 20px 20px;
   background: #ffeda6;
-  width: 40%;
+  width: 88%;
 }
 li {
   padding-bottom: 0.8rem;
 }
-@media only screen and (max-width: 815px){
-#navbar {
-    background-color: white;
-    position: absolute;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-height: 275px;
-    border: none;
-    z-index: 1;
-    border-bottom: 2px solid;
+img {
+  max-width: 100%;
+  height: auto;
 }
+@media only screen and (max-width: 815px){
+  #navbar {
+      background-color: white;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+  }
+  main {
+    margin-left: 90px;
+  }
+  #submit {
+    width: 25%;
+  }
+  .retain {
+    width: 87.2%;
+  }
 }
